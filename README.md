@@ -25,6 +25,5 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
         //        })
         return cell
     }
-    
-    ```
+```
 
