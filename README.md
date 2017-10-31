@@ -6,7 +6,7 @@ DynamicImageHeight is simple light weight for setting up dynamically image heigh
 ## Features
 
 - You can use either with static image or with URL using SDWebImage.
-``func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+```func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! HomeTableViewCell
         cell.selectionStyle = .none
@@ -23,5 +23,5 @@ DynamicImageHeight is simple light weight for setting up dynamically image heigh
         //
         //        })
         return cell
-    }``
+    }```
 
