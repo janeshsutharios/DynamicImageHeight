@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Dynamic-Image-Height
-//
-//  Created by AdityaBirlaHealth Common on 31/10/17.
-//  Copyright © 2017 Janesh. All rights reserved.
-//
+
 
 import UIKit
 

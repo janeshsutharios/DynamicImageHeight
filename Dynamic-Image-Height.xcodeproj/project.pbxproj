@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75D26E50A61BA6CE7CE8FC8C /* Pods_Dynamic_Image_Height.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0976A4498007667B0B98F8BA /* Pods_Dynamic_Image_Height.framework */; };
 		BBE6E3521FA84B1B008111EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6E3511FA84B1B008111EB /* AppDelegate.swift */; };
 		BBE6E3541FA84B1B008111EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6E3531FA84B1B008111EB /* ViewController.swift */; };
 		BBE6E3571FA84B1B008111EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE6E3551FA84B1B008111EB /* Main.storyboard */; };
 		BBE6E3591FA84B1B008111EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE6E3581FA84B1B008111EB /* Assets.xcassets */; };
 		BBE6E35C1FA84B1B008111EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE6E35A1FA84B1B008111EB /* LaunchScreen.storyboard */; };
+		BBE6E3651FA84CA7008111EB /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6E3631FA84CA7008111EB /* HomeTableViewCell.swift */; };
+		BBE6E3661FA84CAA008111EB /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6E3641FA84CA7008111EB /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0976A4498007667B0B98F8BA /* Pods_Dynamic_Image_Height.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynamic_Image_Height.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		283E6911C02B227B9C769064 /* Pods-Dynamic-Image-Height.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic-Image-Height.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dynamic-Image-Height/Pods-Dynamic-Image-Height.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD15C0753F99B91051497C1 /* Pods-Dynamic-Image-Height.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic-Image-Height.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dynamic-Image-Height/Pods-Dynamic-Image-Height.release.xcconfig"; sourceTree = "<group>"; };
 		BBE6E34E1FA84B1B008111EB /* Dynamic-Image-Height.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic-Image-Height.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE6E3511FA84B1B008111EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBE6E3531FA84B1B008111EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		BBE6E3581FA84B1B008111EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE6E35B1FA84B1B008111EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE6E35D1FA84B1B008111EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE6E3631FA84CA7008111EB /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		BBE6E3641FA84CA7008111EB /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D26E50A61BA6CE7CE8FC8C /* Pods_Dynamic_Image_Height.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		258C3D55CE607CB51F10888C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0976A4498007667B0B98F8BA /* Pods_Dynamic_Image_Height.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BBE6E3451FA84B1B008111EB = {
 			isa = PBXGroup;
 			children = (
 				BBE6E3501FA84B1B008111EB /* Dynamic-Image-Height */,
 				BBE6E34F1FA84B1B008111EB /* Products */,
+				EE9F285A18482C5D2BD20FD8 /* Pods */,
+				258C3D55CE607CB51F10888C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,23 @@
 			children = (
 				BBE6E3511FA84B1B008111EB /* AppDelegate.swift */,
 				BBE6E3531FA84B1B008111EB /* ViewController.swift */,
+				BBE6E3631FA84CA7008111EB /* HomeTableViewCell.swift */,
+				BBE6E3641FA84CA7008111EB /* HomeTableViewCell.xib */,
 				BBE6E3551FA84B1B008111EB /* Main.storyboard */,
 				BBE6E3581FA84B1B008111EB /* Assets.xcassets */,
 				BBE6E35A1FA84B1B008111EB /* LaunchScreen.storyboard */,
 				BBE6E35D1FA84B1B008111EB /* Info.plist */,
 			);
 			path = "Dynamic-Image-Height";
+			sourceTree = "<group>";
+		};
+		EE9F285A18482C5D2BD20FD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283E6911C02B227B9C769064 /* Pods-Dynamic-Image-Height.debug.xcconfig */,
+				7BD15C0753F99B91051497C1 /* Pods-Dynamic-Image-Height.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBE6E3601FA84B1B008111EB /* Build configuration list for PBXNativeTarget "Dynamic-Image-Height" */;
 			buildPhases = (
+				C67A1B13FF569ABA1A51C868 /* [CP] Check Pods Manifest.lock */,
 				BBE6E34A1FA84B1B008111EB /* Sources */,
 				BBE6E34B1FA84B1B008111EB /* Frameworks */,
 				BBE6E34C1FA84B1B008111EB /* Resources */,
+				9C1EAFA1D0C833DC3ECB9B0F /* [CP] Embed Pods Frameworks */,
+				D03DBB739EA0CD1A430C3F5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +129,7 @@
 				TargetAttributes = {
 					BBE6E34D1FA84B1B008111EB = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -125,17 +158,73 @@
 			files = (
 				BBE6E35C1FA84B1B008111EB /* LaunchScreen.storyboard in Resources */,
 				BBE6E3591FA84B1B008111EB /* Assets.xcassets in Resources */,
+				BBE6E3661FA84CAA008111EB /* HomeTableViewCell.xib in Resources */,
 				BBE6E3571FA84B1B008111EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C1EAFA1D0C833DC3ECB9B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dynamic-Image-Height/Pods-Dynamic-Image-Height-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dynamic-Image-Height/Pods-Dynamic-Image-Height-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67A1B13FF569ABA1A51C868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dynamic-Image-Height-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03DBB739EA0CD1A430C3F5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dynamic-Image-Height/Pods-Dynamic-Image-Height-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBE6E34A1FA84B1B008111EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE6E3651FA84CA7008111EB /* HomeTableViewCell.swift in Sources */,
 				BBE6E3541FA84B1B008111EB /* ViewController.swift in Sources */,
 				BBE6E3521FA84B1B008111EB /* AppDelegate.swift in Sources */,
 			);
@@ -272,13 +361,16 @@
 		};
 		BBE6E3611FA84B1B008111EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283E6911C02B227B9C769064 /* Pods-Dynamic-Image-Height.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dynamic-Image-Height/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Janesh.DynamicImage.Dynamic-Image-Height";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Janesh.DynamicImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +378,16 @@
 		};
 		BBE6E3621FA84B1B008111EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD15C0753F99B91051497C1 /* Pods-Dynamic-Image-Height.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dynamic-Image-Height/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Janesh.DynamicImage.Dynamic-Image-Height";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Janesh.DynamicImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
