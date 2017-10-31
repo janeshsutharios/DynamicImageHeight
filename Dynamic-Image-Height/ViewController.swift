@@ -24,13 +24,11 @@ extension ViewController :UITableViewDataSource,UITableViewDelegate{
         cellFrame.height =  cellFrame.height - 15
         cellFrame.width =  cellFrame.width - 15
         cell.feedImageHeightConstraint.constant = self.getAspectRatioAccordingToiPhones(cellImageFrame: cellFrame,downloadedImage: image!)
-
-
-//        let url = URL(string: feedModel[indexPath.row].imageModel[0].standardResolutionUrl!)
-//        cell.feedImageView.sd_setImage(with: url, placeholderImage: nil, options: [], completed: { (theImage, error, cache, url) in
-//            cell.feedImageHeightConstraint.constant = self.getAspectRatioAccordingToiPhones(cellImageFrame: cellFrame,downloadedImage: theImage!)
-//
-//        })
+        //        let url = URL(string: feedModel[indexPath.row].imageModel[0].standardResolutionUrl!)
+        //        cell.feedImageView.sd_setImage(with: url, placeholderImage: nil, options: [], completed: { (theImage, error, cache, url) in
+        //            cell.feedImageHeightConstraint.constant = self.getAspectRatioAccordingToiPhones(cellImageFrame: cellFrame,downloadedImage: theImage!)
+        //
+        //        })
         return cell
     }
     func getAspectRatioAccordingToiPhones(cellImageFrame:CGSize,downloadedImage: UIImage)->CGFloat {

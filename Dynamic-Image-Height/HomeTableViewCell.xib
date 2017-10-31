@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,13 +15,13 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="321"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="320.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="320.66666666666669"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-Di-bTU">
-                        <rect key="frame" x="5" y="5" width="310" height="310.5"/>
+                        <rect key="frame" x="5" y="5" width="310" height="310.66666666666669"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="310" id="zb4-RZ-wgo"/>
+                            <constraint firstAttribute="height" priority="999" constant="310" id="zb4-RZ-wgo"/>
                         </constraints>
                     </imageView>
                 </subviews>
