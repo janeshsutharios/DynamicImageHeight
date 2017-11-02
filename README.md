@@ -1,7 +1,7 @@
 # Dynamic image height for ios Swift 3 & 4 
 DynamicImageHeight is simple light weight for setting up dynamically image height
 
-<p align="center"><img src="https://im3.ezgif.com/tmp/ezgif-3-925fe4874e.gif" width="242" height="425"/></p>
+<p align="center"><img src="https://i.stack.imgur.com/sT0y8.gif" width="242" height="425"/></p>
 
 ## Features
 
